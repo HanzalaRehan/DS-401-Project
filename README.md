@@ -41,35 +41,17 @@ git clone https://github.com/HanzalaRehan/DS-401-Project.git
 cd DS-401-Project
 ```
 
-### 2. Create a Virtual Environment
-```bash
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-```
-
-### 3. Install Dependencies
+### 2. Install Dependencies
 ```bash
 pip install -r requirements.txt
 ```
 
-### 4. Train the Model
+### 3. Run the Application
 ```bash
-python train.py
+python3 app.py
 ```
 
-### 5. Run the Application
-```bash
-uvicorn app:app --reload
-```
-
-Visit the application at: [http://localhost:8000](http://localhost:8000)
-
----
-
-## 🌐 Deployment
-
-The application is deployed on Vercel and can be accessed here:  
-👉 [expo-project-nu.vercel.app](https://expo-project-nu.vercel.app)
+Visit the application at: [http://localhost:5000](http://localhost:5000)
 
 ---
 
@@ -88,8 +70,3 @@ Contributions are welcome!
 Please fork the repository and submit a pull request for any enhancements or bug fixes.
 
 ---
-
-## 📄 License
-
-This project is licensed under the **MIT License**.  
-See the [LICENSE](LICENSE) file for details.
