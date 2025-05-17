@@ -1,11 +1,9 @@
 from flask import Flask, render_template, request
 import joblib
 import pandas as pd
-from asgiref.wsgi import WsgiToAsgi
 
 app = Flask(__name__)
 model = joblib.load('content/rf_pipeline.joblib')
-asgi_app = WsgiToAsgi(app)
 
 @app.route('/', methods=['GET', 'POST'])
 def index():
