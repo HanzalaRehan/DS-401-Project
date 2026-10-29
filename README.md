@@ -6,6 +6,12 @@ An end-to-end data science project developed as part of the **DS-401** course. T
 
 ## 📌 Project Overview
 
+### Team
+1. Muhammad Hanzala Bin Rehan (461738)
+2. Muhammad Abdullah Waleed Ahmed Janjua (459244)
+3. Muhammad Arshyan Khan (462685)
+4. Khadija Faisal (467936)
+
 **Objective**  
 Develop a machine learning pipeline that includes data preprocessing, model training, and deployment.
 
